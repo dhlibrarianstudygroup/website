@@ -1,13 +1,9 @@
----
-title: "index"
-weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
----
++++
+title = "Index"
+type  = "docs"
++++
+
+# Index
 
 ## [勉強会について](docs/about)
 
