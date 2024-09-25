@@ -1,0 +1,4 @@
+baseURL = 'https://dhlibrarianstudygroup.github.io/website'
+languageCode = 'en-us'
+title = 'DH librarian studygroup'
+theme = 'hugo-book'
