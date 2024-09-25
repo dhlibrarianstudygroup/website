@@ -1,5 +1,5 @@
 ﻿---
-title: "20240721"
+title: "2024年7月21日"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
