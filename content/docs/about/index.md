@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "勉強会について"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
