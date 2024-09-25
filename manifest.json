@@ -1,0 +1,15 @@
+{
+  "name": "DH librarian studygroup",
+  "short_name": "DH librarian studygroup",
+  "start_url": "/website/",
+  "scope": "/website/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/website/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
