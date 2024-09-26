@@ -19,4 +19,5 @@ https://github.com/TEI-EAJ/jpn_classical/blob/master/jpn_classical_guideline.md
 （京都本）あはさぬきに平家をそむき
 （国会本）あわさぬきに平家をそむき
 &amp;lt;app&amp;gt;&amp;lt;lem wit=&amp;#34;#京都&amp;#34;&amp;gt;あは&amp;lt;/lem&amp;gt;&amp;lt;rdg wit=&amp;#34;#国会&amp;#34;&amp;gt;あわ&amp;lt;/rdg&amp;gt;&amp;lt;/app&amp;gt;さぬきに平家をそむき このように、底本である京都本については&amp;lt;lem&amp;gt;、対校本である国会本は&amp;lt;rdg&amp;gt;で囲む。</description></item><item><title>勉強会について</title><link>https://dhlibrarianstudygroup.github.io/website/docs/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dhlibrarianstudygroup.github.io/website/docs/about/</guid><description>若手図書館員DH勉強会 # 勉強会について # 若手図書館員DH勉強会は、都内近郊の若手図書館員と編集者による、デジタル・ヒューマニティーズ（Digital Humanities）の勉強会です。 図書館員はどのような形でDHに関わることができるのか、従来の図書資料やメタデータに加えて、研究利用できるデータを提供するにはどうすればいいのか、という問いのもと、複数の機関から職員が集まってDHについて学んでいます。
-主な活動内容は、DHに関する文献の読書会と日本古典籍資料のTEIマークアップです。 国内外のDHプロジェクトの事例を学びつつ、DHの知識を習得し、実践することを目標に活動しています。活動の詳細やTEIマークアップの構築環境などについて各ページで公開していますので、ぜひご覧ください。</description></item></channel></rss>
+主な活動内容は、DHに関する文献の読書会と日本古典籍資料のTEIマークアップです。 国内外のDHプロジェクトの事例を学びつつ、DHの知識を習得し、実践することを目標に活動しています。
+活動の詳細やTEIマークアップの構築環境などについて各ページで公開していますので、ぜひご覧ください。</description></item></channel></rss>
