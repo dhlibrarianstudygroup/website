@@ -1,6 +1,6 @@
 ---
 title: "TEIマークアップ"
-weight: 1
+weight: 4
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
@@ -8,6 +8,9 @@ weight: 1
 # bookComments: false
 # bookSearchExclude: false
 ---
+
+# TEIマークアップ
+
 ## はしがき
 勉強会はDHに関する文献の読書会からスタートした。読書会では"Digital Humanities in the Library : Challenges and Opportunities for Subject Specialists"（注）を読み進めたが、その中ではTEI（Text Encoding Initiative）に関する取り組みがしばしば紹介されており、読書会が進むにつれてメンバーの中でTEIに対する興味・関心が高まっていった。理論だけではなく、実際に手を動かしてDHについてより深く学びたいという意見が出たことや、TEIマークアップの経験があるメンバーがいたこともあり、 勉強会でTEIマークアップを実践することになった。  
 勉強会ではTEIマークアップの練習台として『平家物語』百二十句本の京都府立京都学・歴彩館蔵本と国立国会図書館蔵本の二本を選択した。マークアップした章段は「扇の的」。選定にあたり、考慮したことは次の3点である。
