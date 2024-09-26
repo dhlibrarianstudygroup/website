@@ -1,6 +1,6 @@
 ---
 title: "TEI/XML編集環境"
-weight: 1
+weight: 5
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
