@@ -1,0 +1,69 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content='はしがき # 勉強会はDHに関する文献の読書会からスタートした。読書会では"Digital Humanities in the Library : Challenges and Opportunities for Subject Specialists"（注）を読み進めたが、その中ではTEI（Text Encoding Initiative）に関する取り組みがしばしば紹介されており、読書会が進むにつれてメンバーの中でTEIに対する興味・関心が高まっていった。理論だけではなく、実際に手を動かしてDHについてより深く学びたいという意見が出たことや、TEIマークアップの経験があるメンバーがいたこともあり、 勉強会でTEIマークアップを実践することになった。
+勉強会ではTEIマークアップの練習台として『平家物語』百二十句本の京都府立京都学・歴彩館蔵本と国立国会図書館蔵本の二本を選択した。マークアップした章段は「扇の的」。選定にあたり、考慮したことは次の3点である。
+有名な日本古典文学作品であること ほどよく異同があり、校異情報のマークアップの練習ができること 原本の画像がインターネット上で公開されていること なお、翻刻は勉強会メンバーが担当した。
+（注）Arianne, H.,Laura, B and Liorah, G (Eds.): Digital Humanities in the Library: Challenges and Opportunities for Subject Specialists,Association of Research Libraries (2015).
+マークアップの方針 # 以下は勉強会で『平家物語』「扇の的」にTEIマークアップを実践するにあたり、共有したマークアップの方針を例を挙げながら整理したものである。なお、方針の策定にあたっては下記ページを参考にさせていただいた。
+参考：日本語古典籍TEI本文データ作成要領
+https://github.com/TEI-EAJ/jpn_classical/blob/master/jpn_classical_guideline.md
+異同箇所のマークアップについて # 使用した京都府立京都学・歴彩館蔵本（以下、「京都本」と称する）と国立国会図書館蔵本（以下、「国会本」と称する）はそれぞれ国書データベースと国立国会図書館デジタルコレクションで原本の画像が公開されている。
+京都本は704コマ目から、国会本は15コマ目からが今回マークアップに取り組んだ「扇の的」の章段にあたる。
+京都本：https://kokusho.nijl.ac.jp/biblio/100171975/704
+国会本：https://dl.ndl.go.jp/pid/2546105/1/15
+諸本の情報は<listWit>を用いて<sourceDesc>の中に次のように記述。
+<listWit> <witness xml:id="京都">百二十句本　京都本</witness> <witness xml:id="国会">百二十句本　国会本</witness> </listWit> 今回は京都本を底本、国会本を対校本とした。
+したがって、異同は次のようにマークアップする（例文の異同箇所は下線で表示）。
+（京都本）あはさぬきに平家をそむき
+（国会本）あわさぬきに平家をそむき
+<app><lem wit="#京都">あは</lem><rdg wit="#国会">あわ</rdg></app>さぬきに平家をそむき このように、底本である京都本については<lem>、対校本である国会本は<rdg>で囲む。'><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="https://dhlibrarianstudygroup.github.io/website/docs/tei_heike/"><meta property="og:site_name" content="DH librarian studygroup"><meta property="og:title" content="TEIマークアップ"><meta property="og:description" content='はしがき # 勉強会はDHに関する文献の読書会からスタートした。読書会では"Digital Humanities in the Library : Challenges and Opportunities for Subject Specialists"（注）を読み進めたが、その中ではTEI（Text Encoding Initiative）に関する取り組みがしばしば紹介されており、読書会が進むにつれてメンバーの中でTEIに対する興味・関心が高まっていった。理論だけではなく、実際に手を動かしてDHについてより深く学びたいという意見が出たことや、TEIマークアップの経験があるメンバーがいたこともあり、 勉強会でTEIマークアップを実践することになった。
+勉強会ではTEIマークアップの練習台として『平家物語』百二十句本の京都府立京都学・歴彩館蔵本と国立国会図書館蔵本の二本を選択した。マークアップした章段は「扇の的」。選定にあたり、考慮したことは次の3点である。
+有名な日本古典文学作品であること ほどよく異同があり、校異情報のマークアップの練習ができること 原本の画像がインターネット上で公開されていること なお、翻刻は勉強会メンバーが担当した。
+（注）Arianne, H.,Laura, B and Liorah, G (Eds.): Digital Humanities in the Library: Challenges and Opportunities for Subject Specialists,Association of Research Libraries (2015).
+マークアップの方針 # 以下は勉強会で『平家物語』「扇の的」にTEIマークアップを実践するにあたり、共有したマークアップの方針を例を挙げながら整理したものである。なお、方針の策定にあたっては下記ページを参考にさせていただいた。
+参考：日本語古典籍TEI本文データ作成要領
+https://github.com/TEI-EAJ/jpn_classical/blob/master/jpn_classical_guideline.md
+異同箇所のマークアップについて # 使用した京都府立京都学・歴彩館蔵本（以下、「京都本」と称する）と国立国会図書館蔵本（以下、「国会本」と称する）はそれぞれ国書データベースと国立国会図書館デジタルコレクションで原本の画像が公開されている。
+京都本は704コマ目から、国会本は15コマ目からが今回マークアップに取り組んだ「扇の的」の章段にあたる。
+京都本：https://kokusho.nijl.ac.jp/biblio/100171975/704
+国会本：https://dl.ndl.go.jp/pid/2546105/1/15
+諸本の情報は<listWit>を用いて<sourceDesc>の中に次のように記述。
+<listWit> <witness xml:id="京都">百二十句本　京都本</witness> <witness xml:id="国会">百二十句本　国会本</witness> </listWit> 今回は京都本を底本、国会本を対校本とした。
+したがって、異同は次のようにマークアップする（例文の異同箇所は下線で表示）。
+（京都本）あはさぬきに平家をそむき
+（国会本）あわさぬきに平家をそむき
+<app><lem wit="#京都">あは</lem><rdg wit="#国会">あわ</rdg></app>さぬきに平家をそむき このように、底本である京都本については<lem>、対校本である国会本は<rdg>で囲む。'><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="docs"><title>TEIマークアップ | DH librarian studygroup</title>
+<link rel=manifest href=/website/manifest.json><link rel=icon href=/website/favicon.png><link rel=canonical href=https://dhlibrarianstudygroup.github.io/website/docs/tei_heike/><link rel=stylesheet href=/website/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css integrity="sha256-MJt+0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin=anonymous><script defer src=/website/fuse.min.js></script><script defer src=/website/en.search.min.b1f236e93956b53b931b61d58a62ad6beeba024efbe6b74ba1717f6b61127229.js integrity="sha256-sfI26TlWtTuTG2HVimKta+66Ak775rdLoXF/a2EScik=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/website/><span>DH librarian studygroup</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><a href=/website/docs/tei_heike/ class=active>TEIマークアップ</a></li><li><a href=/website/docs/about/>勉強会について</a></li><li><a href=/website/docs/blog/>活動報告</a><ul><li><a href=/website/docs/blog/20240721/>2024年7月21日</a></li></ul></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/website/svg/menu.svg class=book-icon alt=Menu>
+</label><strong>TEIマークアップ</strong>
+<label for=toc-control><img src=/website/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><a href=#はしがき>はしがき</a></li><li><a href=#マークアップの方針>マークアップの方針</a><ul><li><a href=#異同箇所のマークアップについて>異同箇所のマークアップについて</a></li><li><a href=#人物情報>人物情報</a></li><li><a href=#地名>地名</a></li><li><a href=#日付>日付</a></li><li><a href=#ページ丁の情報について>ページ（丁）の情報について</a></li></ul></li></ul></nav></aside></header><article class="markdown book-article"><h2 id=はしがき>はしがき
+<a class=anchor href=#%e3%81%af%e3%81%97%e3%81%8c%e3%81%8d>#</a></h2><p>勉強会はDHに関する文献の読書会からスタートした。読書会では"Digital Humanities in the Library : Challenges and Opportunities for Subject Specialists"（注）を読み進めたが、その中ではTEI（Text Encoding Initiative）に関する取り組みがしばしば紹介されており、読書会が進むにつれてメンバーの中でTEIに対する興味・関心が高まっていった。理論だけではなく、実際に手を動かしてDHについてより深く学びたいという意見が出たことや、TEIマークアップの経験があるメンバーがいたこともあり、 勉強会でTEIマークアップを実践することになった。<br>勉強会ではTEIマークアップの練習台として『平家物語』百二十句本の京都府立京都学・歴彩館蔵本と国立国会図書館蔵本の二本を選択した。マークアップした章段は「扇の的」。選定にあたり、考慮したことは次の3点である。</p><ul><li>有名な日本古典文学作品であること</li><li>ほどよく異同があり、校異情報のマークアップの練習ができること</li><li>原本の画像がインターネット上で公開されていること</li></ul><p>なお、翻刻は勉強会メンバーが担当した。</p><p>（注）Arianne, H.,Laura, B and Liorah, G (Eds.): Digital Humanities in the Library: Challenges and Opportunities for Subject Specialists,Association of Research Libraries (2015).</p><h2 id=マークアップの方針>マークアップの方針
+<a class=anchor href=#%e3%83%9e%e3%83%bc%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%81%ae%e6%96%b9%e9%87%9d>#</a></h2><p>以下は勉強会で『平家物語』「扇の的」にTEIマークアップを実践するにあたり、共有したマークアップの方針を例を挙げながら整理したものである。なお、方針の策定にあたっては下記ページを参考にさせていただいた。</p><p>参考：日本語古典籍TEI本文データ作成要領<br><a href=https://github.com/TEI-EAJ/jpn_classical/blob/master/jpn_classical_guideline.md>https://github.com/TEI-EAJ/jpn_classical/blob/master/jpn_classical_guideline.md</a></p><h3 id=異同箇所のマークアップについて>異同箇所のマークアップについて
+<a class=anchor href=#%e7%95%b0%e5%90%8c%e7%ae%87%e6%89%80%e3%81%ae%e3%83%9e%e3%83%bc%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6>#</a></h3><p>使用した京都府立京都学・歴彩館蔵本（以下、「京都本」と称する）と国立国会図書館蔵本（以下、「国会本」と称する）はそれぞれ国書データベースと国立国会図書館デジタルコレクションで原本の画像が公開されている。<br>京都本は704コマ目から、国会本は15コマ目からが今回マークアップに取り組んだ「扇の的」の章段にあたる。</p><p>京都本：https://kokusho.nijl.ac.jp/biblio/100171975/704<br>国会本：https://dl.ndl.go.jp/pid/2546105/1/15</p><p>諸本の情報は<code>&lt;listWit></code>を用いて<code>&lt;sourceDesc></code>の中に次のように記述。</p><pre tabindex=0><code>&lt;listWit&gt;
+&lt;witness xml:id=&#34;京都&#34;&gt;百二十句本　京都本&lt;/witness&gt;
+&lt;witness xml:id=&#34;国会&#34;&gt;百二十句本　国会本&lt;/witness&gt;
+&lt;/listWit&gt;
+</code></pre><p>今回は京都本を底本、国会本を対校本とした。<br>したがって、異同は次のようにマークアップする（例文の異同箇所は<strong>下線</strong>で表示）。<br>（京都本）あ<strong>は</strong>さぬきに平家をそむき<br>（国会本）あ<strong>わ</strong>さぬきに平家をそむき</p><pre tabindex=0><code>&lt;app&gt;&lt;lem wit=&#34;#京都&#34;&gt;あは&lt;/lem&gt;&lt;rdg wit=&#34;#国会&#34;&gt;あわ&lt;/rdg&gt;&lt;/app&gt;さぬきに平家をそむき
+</code></pre><p>このように、底本である京都本については<code>&lt;lem></code>、対校本である国会本は<code>&lt;rdg></code>で囲む。<br>先述の<code>&lt;listWit></code>でxmlidをそれぞれ<code>京都</code> <code>国会</code>としたので、アトリビュートである<code>wit</code>の後ろは<code>#京都</code> <code>#国会</code>とする。</p><p>異同は単語単位で取ることとする。<br>すなわち、例えば次の文章をマークアップする場合、下記のようにはマークアップしない。<br>（京都本）はたそ<strong>て</strong>いろ<strong>え</strong>たるひたゝれに<br>（国会本）はたそ<strong>で</strong>いろ<strong>へ</strong>たるひたゝれに</p><p>【誤１】</p><pre tabindex=0><code>はたそ&lt;app&gt;&lt;lem wit=&#34;#京都&#34;&gt;て&lt;/lem&gt;&lt;rdg wit=&#34;#国会&#34;&gt;で&lt;/rdg&gt;&lt;/app&gt;
+いろ&lt;app&gt;&lt;lem wit=&#34;#京都&#34;&gt;え&lt;/lem&gt;&lt;rdg wit=&#34;#国会&#34;&gt;へ&lt;/rdg&gt;&lt;/app&gt;たるひたゝれに
+</code></pre><p>【誤２】</p><pre tabindex=0><code>&lt;app&gt;&lt;lem wit=&#34;#京都&#34;&gt;はたそていろえ&lt;/lem&gt;&lt;rdg wit=&#34;#国会&#34;&gt;はたそでいろへ&lt;/rdg&gt;&lt;/app&gt;たるひたゝれに
+</code></pre><p>こちらが正解。</p><pre tabindex=0><code>&lt;app&gt;&lt;lem wit=&#34;#京都&#34;&gt;はたそて&lt;/lem&gt;&lt;rdg wit=&#34;#国会&#34;&gt;はたそで&lt;/rdg&gt;&lt;/app&gt;
+&lt;app&gt;&lt;lem wit=&#34;#京都&#34;&gt;いろえ&lt;/lem&gt;&lt;rdg wit=&#34;#国会&#34;&gt;いろへ&lt;/rdg&gt;&lt;/app&gt;たるひたゝれに
+</code></pre><h3 id=人物情報>人物情報
+<a class=anchor href=#%e4%ba%ba%e7%89%a9%e6%83%85%e5%a0%b1>#</a></h3><p>人物は<code>&lt;persName></code>でタグ付けする。誰を指すかわかる場合は<code>&lt;persName corresp="#那須与一"></code>のようにする。<br><code>&lt;body></code>（本文情報）のうしろ、<code>&lt;back></code>の中にある<code>&lt;listPerson></code>で人物のリストを作ることができる。リストの中身の例は次の通り。</p><pre tabindex=0><code>&lt;person xml:id=&#34;那須与一&#34;&gt;
+  &lt;persName&gt;
+    &lt;surname&gt;那須&lt;/surname&gt;
+    &lt;forename&gt;与一&lt;/forename&gt;
+  &lt;/persName&gt;
+  &lt;idno type=&#34;VIAF&#34;&gt;http://viaf.org/viaf/6524312&lt;/idno&gt;
+&lt;/person&gt;
+</code></pre><p>このように、VIAFなどと紐付けることも可能。<br>なお、本文でタグ付けしたときの<code>persName corresp=#</code>の後ろで使うのは<code>person xml:id=</code>の後ろの人名と同じ形。<br>（代名詞や役職名など、本文中異なる名前で呼ばれていたとしても、同じ人物を指していることがわかるようにするための統一名）</p><h3 id=地名>地名
+<a class=anchor href=#%e5%9c%b0%e5%90%8d>#</a></h3><p>要領は<code>&lt;persName></code>と同じ。<br>地名は<code>&lt;placeName></code>でタグ付けする。どこを指すかわかる場合は<code>&lt;placeName corresp="#鎌倉">かまくら&lt;/placeName></code>のようにする。<br><code>&lt;text></code>（本文情報）のうしろ、<code>&lt;back></code>の中にある<code>&lt;listPlace></code>で地名のリストを作ることができる。リストの中身の例は次の通り。</p><pre tabindex=0><code>&lt;place xml:id=&#34;鎌倉&#34;&gt;
+  &lt;placeName&gt;鎌倉&lt;/placeName&gt;
+  &lt;location&gt;
+    &lt;geo&gt;35.31085 139.54698&lt;/geo&gt;
+  &lt;/location&gt;
+  &lt;idno type=&#34;GeoNames&#34;&gt;https://www.geonames.org/1860672/kamakura.html&lt;/idno&gt;
+&lt;/place&gt;
+</code></pre><p>本文でタグ付けしたときの<code>placeName corresp=#</code>の後ろで使うのは<code>place xml:id=</code>の後ろの地名と同じ形。<br><code>&lt;location>&lt;geo></code>は緯度・経度の情報。</p><h3 id=日付>日付
+<a class=anchor href=#%e6%97%a5%e4%bb%98>#</a></h3><p>日付は<code>&lt;date></code>でタグ付けする。もし具体的な日付が分かれば<code>&lt;date when="1900-09-27"></code>のように記述する。</p><h3 id=ページ丁の情報について>ページ（丁）の情報について
+<a class=anchor href=#%e3%83%9a%e3%83%bc%e3%82%b8%e4%b8%81%e3%81%ae%e6%83%85%e5%a0%b1%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6>#</a></h3><p>各丁、本文の前にページの情報を<code>&lt;pb></code>タグで記述する。<br>例えば、16丁裏は次のような感じ。</p><pre tabindex=0><code>&lt;pb n=&#34;16v&#34; facs=&#34;https://kokusho.nijl.ac.jp/biblio/100171975/705&#34;/&gt;
+</code></pre><p>アトリビュートの<code>n</code>の後ろに<code>数字</code>プラス表であれば<code>r</code>、裏であれば<code>v</code>でページ（丁）の情報を入れる。<br><code>facts</code>の後ろは国書データベースの該当ページのURL。</p></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><a href=#はしがき>はしがき</a></li><li><a href=#マークアップの方針>マークアップの方針</a><ul><li><a href=#異同箇所のマークアップについて>異同箇所のマークアップについて</a></li><li><a href=#人物情報>人物情報</a></li><li><a href=#地名>地名</a></li><li><a href=#日付>日付</a></li><li><a href=#ページ丁の情報について>ページ（丁）の情報について</a></li></ul></li></ul></nav></div></aside></main></body></html>
