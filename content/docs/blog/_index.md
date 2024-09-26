@@ -1,10 +1,16 @@
-+++
-title = "活動報告"
-type  = "docs"
-+++
+---
+title: "活動報告"
+weight: 2
+# bookFlatSection: false
+# bookToc: true
+# bookHidden: false
+# bookCollapseSection: false
+# bookComments: false
+# bookSearchExclude: false
+---
 
-## 活動報告
+# 活動報告
 
-# [2024年7月21日](20240721)
+## [2024年7月21日](20240721)
 
-DHシンポジウム「図書資料の構造化　研究データとしてのテキストデータ構築」に参加しました。
+DHシンポジウム「図書資料の構造化 研究データとしてのテキストデータ構築」に参加しました。
