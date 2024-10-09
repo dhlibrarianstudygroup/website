@@ -66,11 +66,12 @@ weight: 5
         - 「RELAX NG schema」を選択し、ファイルをダウンロード。任意（ここではTEIファイルと同じ階層）の場所に置く
         
 4. **ユーザスニペットの設定**
-- ファイル＞ユーザ設定＞ユーザー スニペットの構成＞下記の文字列をコピペ＞任意のファイル名（ここでは「teiall.json」）で保存。
-- 2行目<?xml-model href="tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>,”のhrefの値には3で作成したスキーマファイルのパス（絶対パス）を記載する
+- ファイル＞ユーザ設定＞ユーザー スニペットの構成＞「新しいスニペット」を選択し、任意のファイル名（ここでは「teiall.json」）で保存する。
+- デフォルトで記載されている記述を削除し、下記の文字列をコピペして上書き保存する。
+- 2行目<?xml-model href="tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>,”のhrefの値には3で作成したスキーマファイルのパス（絶対パス）を記載する。ここではtei_all.rngとこの後作成するxmlファイルが同じ階層にある想定とする。（同じ階層にないとスキーマファイルが認識されない。）
 
 ```json
-	"TEI P5 All": {
+	{"TEI P5 All": {
 		"prefix": "teiall",
 		"body": [
 			"<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
@@ -97,6 +98,7 @@ weight: 5
 			"</TEI>"
 		],
 		"description": "Oxygen-like TEI (P5) All Boilerplate"
+		}
 	}
 ```
 
