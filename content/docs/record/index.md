@@ -17,7 +17,7 @@ weight: 3
 ---
   #### 10月
   * 裏源氏・若手図書館員DH合同 TEI勉強会
-  
+  * 読書会 [Huw Jones,Yasmin Faghihi(2024),"Manuscript Catalogues as Data for Research: From Provenance to Data Decolonisation",Digital Humanities Quarterly, 18(3).](https://www.digitalhumanities.org/dhq/vol/18/3/000751/000751.html)
   #### 9月
   * 勉強会Webサイト公開・TEIマークアップ
   * 勉強会Webサイト公開準備・TEIマークアップ
