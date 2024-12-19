@@ -15,6 +15,13 @@ weight: 3
 
 ### **2024年**
 ---
+  #### 12月
+  * 読書会 [幾浦裕之「百首歌・題詠・画中歌・絵入本のTEIマークアップの試み ―天和三年刊・菱川師宣画『絵入藤川百首』を例として―」『近世文藝』119巻（日本近世文学会、2024年1月）](https://doi.org/10.20815/kinseibungei.119.0_15)
+  * TEIマークアップの対象選定
+
+  #### 11月
+  * TEIマークアップ
+
   #### 10月
   * 裏源氏・若手図書館員DH合同 TEI勉強会
   * 読書会 [Huw Jones,Yasmin Faghihi(2024),"Manuscript Catalogues as Data for Research: From Provenance to Data Decolonisation",Digital Humanities Quarterly, 18(3).](https://www.digitalhumanities.org/dhq/vol/18/3/000751/000751.html)
