@@ -8,7 +8,11 @@ weight: 6
 # bookComments: false
 # bookSearchExclude: false
 ---
-# GitHubでTE/XMLを共同編集する
+# GitHubでTEI/XMLを共同編集する
+
+### 経緯
+
+---
 
 勉強会でTEIマークアップを進めるにあたって、TEI/XMLを複数人で共同編集する環境が必要となった。
 そこで、GitHub Organizationのアカウントを作成し、非公開リポジトリにTEI/XMLや翻刻テキストデータ、作業方針等を置いて作業環境を整えた。
@@ -26,11 +30,11 @@ weight: 6
 * バージョン管理システムを利用することで、ファイルの古いバージョンを参照して差分をチェックしたり、複数人が別々に編集した変更をまとめて取り込んだりすることができる。
 
 
-### GitHub Organizationのリポジトリを更新する手順
+### 編集の手順
 
 ---
 
-『平家物語』TEI/XMLを更新する場合：
+『平家物語』のTEI/XMLを編集する場合：
 1. GitHub Organization「dhlibrarianstudygroup」のプライベートリポジトリ「tei_heike」にアクセスする。
 2. 画面右上の「Fork」から、Organizationのリポジトリを個人のGitHubアカウントにフォークする。
 3. 個人アカウント上でファイルを編集する。（ファイルを開いた直後はプレビューになっているので、右上の「Edit this file」から編集に移行する。）
