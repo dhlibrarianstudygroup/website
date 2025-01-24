@@ -16,6 +16,7 @@ weight: 3
 ---
 #### 1月
   * [抽斎年譜](https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/ogai/document/60d193c1-d814-42c3-90c0-a5caf5975e1a#?c=0&m=0&s=0&cv=0&xywh=-954%2C-184%2C6162%2C3675)のOCR結果比較、担当決め
+  * 抽齋年譜のTEIマークアップ 疑問点と方針の共有
     
 ### **2024年**
 ---
@@ -41,21 +42,21 @@ weight: 3
   * DHシンポジウムポスター発表準備 #1
   
   #### 6月
-  * TEIマークアップ<br>TEI/XML共同編集環境整備（GitHub）#2
+  * TEIマークアップ・TEI/XML共同編集環境整備（GitHub）#2
   
   #### 5月
-  * TEIマークアップ<br>TEI/XML共同編集環境整備（GitHub）#1
+  * TEIマークアップ・TEI/XML共同編集環境整備（GitHub）#1
   * TEI/XML編集環境整備（VSCode）#2
   
   #### 4月
   * TEI/XML編集環境整備（VSCode）#1
   
   #### 3月
-  * 読書会 "Digital Humanities in the Library" Chapter 13<br>TEIマークアップの方針検討・対象選定 #3
+  * 読書会 "Digital Humanities in the Library" Chapter 13・TEIマークアップの方針検討・対象選定 #3
   
   #### 2月
-  * 読書会 "Digital Humanities in the Library" Chapter 12<br>TEIマークアップの方針検討・対象選定 #2
-  * 読書会 "Digital Humanities in the Library" Chapter 11<br>TEIマークアップの方針検討・対象選定 #1
+  * 読書会 "Digital Humanities in the Library" Chapter 12・TEIマークアップの方針検討・対象選定 #2
+  * 読書会 "Digital Humanities in the Library" Chapter 11・TEIマークアップの方針検討・対象選定 #1
   
   #### 1月
   * 読書会 "Digital Humanities in the Library" Chapter 10
