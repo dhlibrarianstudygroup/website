@@ -14,6 +14,9 @@ weight: 3
 **若手図書館員DH勉強会は2023年7月より活動しています。**
 ### **2025年**
 ---
+#### 2月
+  * [論語と算盤](https://eiichi.shibusawa.or.jp/features/rongotosoroban/index.html)・[渋沢栄一伝記資料](https://shibusawa-dlab.github.io/app1/) TEI勉強会
+
 #### 1月
   * [抽斎年譜](https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/ogai/document/60d193c1-d814-42c3-90c0-a5caf5975e1a#?c=0&m=0&s=0&cv=0&xywh=-954%2C-184%2C6162%2C3675)のOCR結果比較、担当決め
   * 抽齋年譜のTEIマークアップ 疑問点と方針の共有
