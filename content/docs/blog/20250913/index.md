@@ -13,5 +13,4 @@ weight: 5
 
 当日のポスター発表資料は下記からダウンロードいただけます。
 
-<a href="sample.pdf" download>📄 PDFをダウンロード</a>
-pdfはこちら https://dhlibrarianstudygroup.github.io/public/images/sample.pdf
+[pdfはこちら](/hugo/downloads/sample.pdf)
