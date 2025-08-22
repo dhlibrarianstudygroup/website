@@ -13,4 +13,4 @@ weight: 5
 
 当日のポスター発表資料は下記からダウンロードいただけます。
 
-<a href="/static/sample.pdf" download>📄 PDFをダウンロード</a>
+<a href="sample.pdf" download>📄 PDFをダウンロード</a>
