@@ -13,10 +13,4 @@ weight: 5
 
 当日のポスター発表資料は下記からダウンロードいただけます。
 
-href ="/static/downloads/sample.pdf"
-
-<div class="button_cont">
-   <a class="example_d" href="/static/downloads/sample.pdf">
-    {{ i18n "CTAbutton"}}
-   </a>
-</div>
+{{< embed-pdf url="/static/downloads/sample.pdf" >}}
