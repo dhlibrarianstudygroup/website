@@ -12,3 +12,5 @@ weight: 5
 * 2025年9月13日に開催されるDH国際シンポジウム「[東アジア／日本における人文学向けテキスト : データ構造化のためのガイドライン策定に向けて](https://tei.dhii.jp/activities/dh-teisympo2025)」にてポスター発表を行う予定です。
 
 当日のポスター発表資料は下記からダウンロードいただけます。
+
+<a href="/static/sample.pdf" download>📄 PDFをダウンロード</a>
