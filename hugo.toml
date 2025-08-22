@@ -1,5 +1,4 @@
 baseURL = 'https://dhlibrarianstudygroup.github.io/website'
 languageCode = 'en-us'
 title = 'DH librarian studygroup'
-theme = ["hugo-embed-pdf-shortcode", "hugo-book"]
-enableInlineShortcodes = true
+theme = "hugo-book"
