@@ -15,4 +15,4 @@ weight: 5
 
 {{< embed-pdf url="sample.pdf" hidePaginator="true" >}}
 
-[sample.pdf]("sample.pdf")
+[sample.pdf](sample.pdf)
