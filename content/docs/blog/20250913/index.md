@@ -13,6 +13,4 @@ weight: 5
 
 当日のポスター発表資料は下記からダウンロードいただけます。
 
-{{< embed-pdf url="sample.pdf" hidePaginator="true" >}}
-
 [sample.pdf](sample.pdf)
