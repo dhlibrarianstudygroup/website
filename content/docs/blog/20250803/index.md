@@ -22,6 +22,9 @@ weight: 4
 
 ### **発表資料**
 ---
+* [予稿](https://ipsj.ixsq.nii.ac.jp/records/2003274)（情報処理学会電子図書館）
+* [スライド](CH139_chusai.pdf)（PDFダウンロード）
+
 ![CH139発表資料_1](CH139_chusai_1.jpg)
 ![CH139発表資料_2](CH139_chusai_2.jpg)
 ![CH139発表資料_3](CH139_chusai_3.jpg)
