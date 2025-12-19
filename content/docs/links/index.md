@@ -16,6 +16,7 @@ weight: 7
 * [TEIガイドライン 日本語訳](https://www.dh.ku-orcas.kansai-u.ac.jp/?cat=9)
 * [日本語向けTEIガイドライン ver. 0.3](https://github.com/TEI-EAJ/jp_guidelines/wiki)（TEI協会 東アジア/日本語分科会）
 * [日本古典籍TEI本文データ作成要領](https://github.com/TEI-EAJ/jpn_classical/blob/master/jpn_classical_guideline.md)（TEI協会 東アジア/日本語分科会）
+* [東アジア／日本のテキストデータ構造化のためのガイドライン（EAJガイドライン）](https://teikem.kemco.keio.ac.jp/eajguidelines/)
 
 ### TEIとは
 ---
